@@ -53,7 +53,7 @@ tests/
 
 ### **3. Notebook principal**
 
-- **`Practica3_CTG.ipynb`** – Contiene todo el desarrollo del análisis exploratorio, el proceso de limpieza, las visualizaciones y el uso de la librería creada.
+- **`Practica_3.ipynb`** – Contiene todo el desarrollo del análisis exploratorio, el proceso de limpieza, las visualizaciones y el uso de la librería creada.
 
 ---
 
