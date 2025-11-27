@@ -127,6 +127,7 @@ y sigue el flujo:
 	6. Visualizaciones
 	7. Recomendaciones analíticas
   8. Bonus (para sobresaliente)
+  
 ```
 Principales Visualizaciones y Hallazgos
 
