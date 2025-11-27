@@ -24,6 +24,7 @@ El objetivo central fue **estandarizar el flujo analítico**, desde la limpieza 
 
 ### **1. Paquete principal `ctg_viz/`**
 
+```text
 ctg_viz/
 ├── init.py
 ├── preprocessing.py
