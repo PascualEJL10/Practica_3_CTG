@@ -46,6 +46,7 @@ ctg_viz/
 
 ```text
 tests/
+├── __init__.py
 ├── test_preprocessing.py
 ├── test_categorization.py
 └── test_utils.py
