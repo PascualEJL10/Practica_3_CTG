@@ -14,7 +14,7 @@ En esta práctica se realizó un **análisis exploratorio de datos (EDA)** utili
 - Generación de visualizaciones
 - Evaluación de la calidad de los datos
 
-El propósito principal fue **organizar y estandarizar el flujo de trabajo analítico**, desde la limpieza inicial hasta la creación de gráficas más avanzadas, con el fin de lograr un análisis claro.
+El propósito fue **organizar y estandarizar el flujo de trabajo analítico**, desde la limpieza inicial hasta la creación de gráficas más avanzadas, con el fin de lograr un análisis claro.
 
 ---
 
@@ -67,7 +67,7 @@ tests/
 
 ### **Clasificación de columnas (`categorization.py`)**
 
-- `classify_columns_ctg()` – Clasifica variables en **continuas** y **discretas** según su cardinalidad.
+- `classify_columns_ctg()` – Clasifica variables en **continuas** y **discretas** con base en la cantidad de valores únicos presentes en cada columna.
 
 ### **Utilidades (`utils.py`)**
 
@@ -77,7 +77,7 @@ tests/
   - nulos  
   - ceros  
   - columnas constantes  
-  - estadísticos básicos  
+  - estadísticos descriptivos básicos  
 
 ### **Visualizaciones (`plots/`)**
 
@@ -86,12 +86,11 @@ Incluye gráficos personalizados:
 - Histogramas  
 - Boxplots  
 - Barras horizontales  
-- Series de línea  
+- Líneas 
 - Dot plots  
-- Densidad (KDE)  
-- Violin plots  
-- Heatmaps  
-- Comparación “antes vs después" del IQR  
+- Densidad  
+- Violin  
+- Heatmaps 
 
 Todas las funciones fueron diseñadas para:
 
