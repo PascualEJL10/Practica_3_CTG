@@ -157,6 +157,8 @@ matplotlib
 seaborn
 scikit-learn
 scipy
+streamlit
+plotly
 
 Licencia
 

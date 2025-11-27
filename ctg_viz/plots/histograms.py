@@ -6,8 +6,9 @@ Histogramas para el CTG.
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+import plotly.express as px
 
-__all__ = ["plot_histogram_ctg"]
+__all__ = ["plot_histogram_ctg", "plot_histogram_plotly_ctg"]
 
 
 def plot_histogram_ctg(
@@ -71,3 +72,40 @@ def plot_histogram_ctg(
     plt.grid(axis="y", alpha=0.3)
     plt.tight_layout()
     plt.show()
+
+
+def plot_histogram_plotly_ctg(
+    df: pd.DataFrame,
+    column: str,
+    color: str | None = None,
+    nbins: int = 30,
+):
+    """
+    Histograma interactivo con Plotly para el dataset CTG.
+
+    Parámetros
+    ----------
+    df : pandas.DataFrame
+        DataFrame con los datos.
+    column : str
+        Nombre de la columna numérica a graficar.
+    color : str, opcional
+        Columna categórica para colorear la distribución (ej. 'NSP' o 'CLASS').
+    nbins : int, opcional
+        Número de bins del histograma.
+
+    Devuelve
+    --------
+    fig : plotly.graph_objects.Figure
+        Figura de Plotly lista para usar (fig.show() o embebida en Streamlit).
+    """
+    fig = px.histogram(
+        df,
+        x=column,
+        color=color,
+        nbins=nbins,
+        histnorm=None,
+        marginal="box",
+        title=f"Histograma interactivo de {column}",
+    )
+    return fig

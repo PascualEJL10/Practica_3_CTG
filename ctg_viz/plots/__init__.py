@@ -1,4 +1,4 @@
-from .histograms import plot_histogram_ctg
+from .histograms import plot_histogram_ctg, plot_histogram_plotly_ctg
 from .before_after import plot_before_after
 from .bars import plot_barh_ctg
 from .lines import plot_line_ctg
@@ -10,6 +10,7 @@ from .boxplots import plot_boxplot_ctg
 
 __all__ = [
     "plot_histogram_ctg",
+    "plot_histogram_plotly_ctg",
     "plot_before_after",
     "plot_barh_ctg",
     "plot_line_ctg",

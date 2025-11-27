@@ -23,6 +23,7 @@ from .utils import (
 from .plots import (
     plot_before_after,
     plot_histogram_ctg,
+    plot_histogram_plotly_ctg,
     plot_barh_ctg,
     plot_line_ctg,
     plot_dotplot_ctg,
@@ -47,6 +48,7 @@ __all__ = [
     # Gráficas
     "plot_before_after",
     "plot_histogram_ctg",
+    "plot_histogram_plotly_ctg",
     "plot_barh_ctg",
     "plot_line_ctg",
     "plot_dotplot_ctg",
@@ -55,5 +57,3 @@ __all__ = [
     "plot_heatmap_ctg",
     "plot_boxplot_ctg",
 ]
-
-
