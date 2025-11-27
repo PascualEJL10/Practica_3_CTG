@@ -1,4 +1,4 @@
-# Práctica 3 – Análisis Exploratorio y Construcción de Librería `ctg_viz`
+# Práctica 3 – AAnálisis Exploratorio con Visualizaciones y Librería Personalizada `ctg_viz`
 
 ## Autor
 
