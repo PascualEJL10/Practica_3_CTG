@@ -126,7 +126,7 @@ y sigue el flujo:
   5. Análisis de Dtos
   6. Visualizaciones
   7. Recomendaciones analíticas
-  8.  Bonus para sobresaliente
+  8. Bonus para sobresaliente
 
 ```
 
