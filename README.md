@@ -41,11 +41,6 @@ ctg_viz/
     ├── violin.py
     ├── heatmap.py
     └── before_after.py
-
-tests/
-├── test_preprocessing.py
-├── test_categorization.py
-└── test_utils.py
 ```
 
 
