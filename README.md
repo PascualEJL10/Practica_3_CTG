@@ -119,33 +119,33 @@ y sigue el flujo:
 	1.	Importación de librerías
 	2.	Carga del dataset CTG.csv
 	3.	Preprocesamiento:
-	•	eliminación de columnas con nulos
-	•	imputación
-	•	detección y eliminación de outliers
+	- Eliminación de valores nulos
+	- Imputación
+	- Detección y eliminación de outliers
 	4.	Clasificación de columnas
-	5.	Análisis Exploratorio
-	6.	Visualizaciones (más de 20 gráficas)
+	5.	Análisis de Dtos
+	6.	Visualizaciones
 	7.	Recomendaciones finales
 
 Principales Visualizaciones y Hallazgos
 
 1. Efecto del IQR (Antes vs Después)
 
-El IQR eliminó valores extremos sin alterar la tendencia central (mediana), mejorando la robustez de la variable Mean.
+El IQR eliminó valores extremos sin alterar la tendencia central, mejorando la robustez de la variable Mean.
 
 2. Histogramas
 
-Las variables continuas muestran distribuciones estables; Mean es unimodal con ligera asimetría a la derecha.
+Las variables continuas muestran distribuciones estables.
 
 3. Boxplots segmentados por NSP y CLASS
 
-Revelan diferencias claras entre grupos, siendo NSP una variable altamente explicativa.
+Revelan diferencias claras entre grupos, siendo NSP una variable explicativa.
 
 4. Barras horizontales
 
 NSP y CLASS están desbalanceadas, aspecto relevante para modelado.
 
-5. Dot plots y violines
+5. Dot plots y Violines
 
 Permiten comparar grupos de forma más intuitiva e identificar rangos dominantes.
 
@@ -157,7 +157,7 @@ Se observa correlación muy alta entre Mean y Median; MLTV destaca por ser casi 
 
 Conclusiones del Análisis
 	•	Los datos tienen muy pocos valores faltantes, por lo que la imputación tiene bajo impacto.
-	•	Varias variables son discretas o binarias (DS, DP, Tendency), útiles como indicadores.
+	•	Muchas variables son discretas (DS, DP, Tendency) útiles como indicadores.
 	•	La eliminación de outliers mejora la estabilidad sin afectar la estructura general.
 	•	Las correlaciones indican grupos de variables redundantes, candidatos a reducción de dimensionalidad.
 	•	Las visualizaciones segmentadas permiten identificar patrones por clase objetivo.
