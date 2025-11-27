@@ -41,15 +41,17 @@ ctg_viz/
 ├── violin.py
 ├── heatmap.py
 └── before_after.py
-
 ```
+
 
 ### **2. Carpeta de pruebas**
 
+```text
 tests/
 ├── test_preprocessing.py
 ├── test_categorization.py
 └── test_utils.py
+```
 
 ### **3. Notebook principal**
 
