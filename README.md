@@ -102,7 +102,7 @@ Todas las funciones fueron diseñadas para:
 
 ## Instrucciones para ejecutar el proyecto
 
-### **1. Instalar dependencias**
+### **Instalar dependencias**
 
 Instala todo con:
 
@@ -130,9 +130,9 @@ y sigue el flujo:
 
 ```
 
-Principales Visualizaciones y Hallazgos
+### **Análisis**
 
-1. Efecto del IQR (Antes vs Después)
+**1. Efecto del IQR (Antes vs Después)**
 
 - IQR eliminó valores extremos sin alterar la tendencia central
 - Histogramas muestran distribuciones estables
@@ -141,14 +141,14 @@ Principales Visualizaciones y Hallazgos
 - Dot plots y violines permiten comparaciones intuitivas
 - Heatmaps muestran correlaciones altas y variables independientes
 
-Conclusiones
+### **Conclusiones**
 - Pocos valores faltantes, imputación con bajo impacto  
 - Variables discretas útiles como indicadores  
 - Outliers eliminados mejoran estabilidad sin alterar estructura  
 - Correlaciones sugieren reducción de dimensionalidad  
 - Visualizaciones segmentadas revelan patrones por clase objetivo
 
-Archivo requirements.txt
+### **Archivo requirements.txt**
 
 Incluye todas las librerías necesarias para reproducir el análisis:
 
@@ -161,6 +161,6 @@ scipy
 streamlit
 plotly
 
-Licencia
+**Licencia**
 
 Este proyecto se desarrolla con fines académicos como parte del Diplomado en Ciencia de Datos - G33 – UNAM.
