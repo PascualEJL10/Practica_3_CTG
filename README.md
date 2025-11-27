@@ -116,16 +116,17 @@ Abre:
 Practica_3.ipynb
 
 y sigue el flujo:
-	1.	Importación de librerías
-	2.	Carga del dataset CTG.csv
-	3.	Preprocesamiento:
+	1. Importación de librerías
+	2. Carga del dataset CTG.csv
+	3. Preprocesamiento:
 	- Eliminación de valores nulos
 	- Imputación
 	- Detección y eliminación de outliers
-	4.	Clasificación de columnas
-	5.	Análisis de Dtos
-	6.	Visualizaciones
-	7.	Recomendaciones analíticas
+	4. Clasificación de columnas
+	5. Análisis de Dtos
+	6. Visualizaciones
+	7. Recomendaciones analíticas
+  8. Bonus (para sobresaliente)
 ```
 Principales Visualizaciones y Hallazgos
 
@@ -137,8 +138,6 @@ Principales Visualizaciones y Hallazgos
 - Barras evidencian desbalance en NSP y CLASS
 - Dot plots y violines permiten comparaciones intuitivas
 - Heatmaps muestran correlaciones altas y variables independientes
-
-⸻
 
 Conclusiones
 - Pocos valores faltantes, imputación con bajo impacto  
