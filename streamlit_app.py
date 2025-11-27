@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st  # pyright: ignore[reportMissingImports]
 import pandas as pd
 
 from ctg_viz.preprocessing import (
@@ -14,7 +14,6 @@ import plotly.express as px
 def load_data():
     df = pd.read_csv("CTG.csv")
 
-    # Mismo preprocesamiento básico que en el notebook (versión resumida)
     df_step1 = drop_null_columns(df, threshold=0.2)
     df_step2 = simple_imputer(df_step1, numeric_strategy="median",
                               categorical_strategy="most_frequent")
