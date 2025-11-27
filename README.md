@@ -26,21 +26,26 @@ El objetivo central fue **estandarizar el flujo analítico**, desde la limpieza 
 
 ```text
 ctg_viz/
-├── init.py
+├── __init__.py
 ├── preprocessing.py
 ├── categorization.py
 ├── utils.py
 └── plots/
-├── init.py
-├── histograms.py
-├── boxplots.py
-├── bars.py
-├── lines.py
-├── dotplots.py
-├── density.py
-├── violin.py
-├── heatmap.py
-└── before_after.py
+    ├── __init__.py
+    ├── histograms.py
+    ├── boxplots.py
+    ├── bars.py
+    ├── lines.py
+    ├── dotplots.py
+    ├── density.pyç
+    ├── violin.py
+    ├── heatmap.py
+    └── before_after.py
+
+tests/
+├── test_preprocessing.py
+├── test_categorization.py
+└── test_utils.py
 ```
 
 
