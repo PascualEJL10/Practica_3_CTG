@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Descripción del Proyecto
+## Descripción del Proyecto
 
 En esta práctica se desarrolló un **análisis exploratorio de datos (EDA)** usando el dataset **Cardiotocografía (CTG)** y, además, se construyó una **librería personalizada en Python llamada `ctg_viz`**, diseñada para automatizar tareas de:
 
