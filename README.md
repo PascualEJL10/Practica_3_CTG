@@ -42,6 +42,8 @@ ctg_viz/
 ├── heatmap.py
 └── before_after.py
 
+```
+
 ### **2. Carpeta de pruebas**
 
 tests/
