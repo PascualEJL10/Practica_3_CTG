@@ -44,12 +44,12 @@ def main():
         df,
         x=col_select,
         nbins=30,
-        marginal="box",  # añade boxplot arriba
+        marginal="box", 
         title=f"Distribución de {col_select}",
     )
     st.plotly_chart(fig, use_container_width=True)
 
-    # Opcional: segmentar por NSP
+    # Segmentar por NSP
     if "NSP" in df.columns:
         st.subheader(f"Densidad por NSP para {col_select}")
         fig_kde = px.histogram(
