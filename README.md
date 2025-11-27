@@ -20,7 +20,7 @@ El objetivo central fue **estandarizar el flujo analítico**, desde la limpieza 
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ### **1. Paquete principal `ctg_viz/`**
 
@@ -54,19 +54,19 @@ tests/
 
 ---
 
-## 🧪 Funcionalidades principales de la librería `ctg_viz`
+## Funcionalidades principales de la librería `ctg_viz`
 
-### **🔹 Preprocesamiento (`preprocessing.py`)**
+### **Preprocesamiento (`preprocessing.py`)**
 
 - `drop_null_columns()` – Elimina columnas con alto porcentaje de nulos.  
 - `simple_imputer()` – Imputa valores faltantes para numéricas y categóricas.  
 - `remove_outliers_iqr()` – Detecta y elimina outliers usando IQR.
 
-### **🔹 Clasificación de columnas (`categorization.py`)**
+### **Clasificación de columnas (`categorization.py`)**
 
 - `classify_columns_ctg()` – Clasifica variables en **continuas** y **discretas** según su cardinalidad.
 
-### **🔹 Utilidades (`utils.py`)**
+### **Utilidades (`utils.py`)**
 
 - `check_data_completeness_Pascual_Enrique_Juarez_Luna()`  
   Reporte completo incluyendo:
@@ -76,7 +76,7 @@ tests/
   - columnas constantes  
   - estadísticos básicos  
 
-### **🔹 Visualizaciones (`plots/`)**
+### **Visualizaciones (`plots/`)**
 
 Incluye gráficos personalizados:
 
@@ -98,7 +98,7 @@ Todas las funciones fueron diseñadas para:
 
 ---
 
-## ⚙️ Instrucciones para ejecutar el proyecto
+## Instrucciones para ejecutar el proyecto
 
 ### **1. Instalar dependencias**
 
@@ -153,7 +153,7 @@ Se observa correlación muy alta entre Mean y Median; MLTV destaca por ser casi 
 
 ⸻
 
-🏁 Conclusiones del Análisis
+Conclusiones del Análisis
 	•	Los datos tienen muy pocos valores faltantes, por lo que la imputación tiene bajo impacto.
 	•	Varias variables son discretas o binarias (DS, DP, Tendency), útiles como indicadores.
 	•	La eliminación de outliers mejora la estabilidad sin afectar la estructura general.
