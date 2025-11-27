@@ -129,6 +129,7 @@ y sigue el flujo:
   8. Bonus para sobresaliente
 
 ```
+---
 
 ### **Análisis**
 
