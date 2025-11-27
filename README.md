@@ -35,7 +35,7 @@ ctg_viz/
     ├── bars.py
     ├── lines.py
     ├── dotplots.py
-    ├── density.pyç
+    ├── density.py
     ├── violin.py
     ├── heatmap.py
     └── before_after.py
@@ -125,42 +125,27 @@ y sigue el flujo:
 	4.	Clasificación de columnas
 	5.	Análisis de Dtos
 	6.	Visualizaciones
-	7.	Recomendaciones finales
+	7.	Recomendaciones analíticas
 
 Principales Visualizaciones y Hallazgos
 
 1. Efecto del IQR (Antes vs Después)
 
-El IQR eliminó valores extremos sin alterar la tendencia central, mejorando la robustez de la variable Mean.
-
-2. Histogramas
-
-Las variables continuas muestran distribuciones estables.
-
-3. Boxplots segmentados por NSP y CLASS
-
-Revelan diferencias claras entre grupos, siendo NSP una variable explicativa.
-
-4. Barras horizontales
-
-NSP y CLASS están desbalanceadas, aspecto relevante para modelado.
-
-5. Dot plots y Violines
-
-Permiten comparar grupos de forma más intuitiva e identificar rangos dominantes.
-
-6. Heatmaps
-
-Se observa correlación muy alta entre Mean y Median; MLTV destaca por ser casi independiente.
+- IQR eliminó valores extremos sin alterar la tendencia central
+- Histogramas muestran distribuciones estables
+- Boxplots revelan diferencias claras entre grupos
+- Barras evidencian desbalance en NSP y CLASS
+- Dot plots y violines permiten comparaciones intuitivas
+- Heatmaps muestran correlaciones altas y variables independientes
 
 ⸻
 
-Conclusiones del Análisis
-	•	Los datos tienen muy pocos valores faltantes, por lo que la imputación tiene bajo impacto.
-	•	Muchas variables son discretas (DS, DP, Tendency) útiles como indicadores.
-	•	La eliminación de outliers mejora la estabilidad sin afectar la estructura general.
-	•	Las correlaciones indican grupos de variables redundantes, candidatos a reducción de dimensionalidad.
-	•	Las visualizaciones segmentadas permiten identificar patrones por clase objetivo.
+Conclusiones
+- Pocos valores faltantes, imputación con bajo impacto  
+- Variables discretas útiles como indicadores  
+- Outliers eliminados mejoran estabilidad sin alterar estructura  
+- Correlaciones sugieren reducción de dimensionalidad  
+- Visualizaciones segmentadas revelan patrones por clase objetivo
 
 Archivo requirements.txt
 
@@ -170,8 +155,9 @@ pandas
 numpy
 matplotlib
 seaborn
+scikit-learn
 scipy
 
 Licencia
 
-Este proyecto se desarrolla con fines académicos como parte del Diplomado en Ciencia de Datos- G33 – UNAM.
+Este proyecto se desarrolla con fines académicos como parte del Diplomado en Ciencia de Datos - G33 – UNAM.
