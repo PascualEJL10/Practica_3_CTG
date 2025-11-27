@@ -7,16 +7,14 @@
 
 ---
 
-## Descripción del Proyecto
+En esta práctica se realizó un **análisis exploratorio de datos (EDA)** utilizando el conjunto de datos de **Cardiotocografía (CTG)**. Además, se desarrolló una **librería en Python llamada `ctg_viz`**, pensada para facilitar tareas como:
 
-En esta práctica se desarrolló un **análisis exploratorio de datos (EDA)** usando el dataset **Cardiotocografía (CTG)** y, además, se construyó una **librería personalizada en Python llamada `ctg_viz`**, diseñada para automatizar tareas de:
+- Preprocesamiento de datos
+- Clasificación de variables
+- Generación de visualizaciones
+- Evaluación de la calidad de los datos
 
-- Preprocesamiento  
-- Clasificación de variables  
-- Visualización  
-- Diagnóstico de calidad de datos  
-
-El objetivo central fue **estandarizar el flujo analítico**, desde la limpieza inicial hasta la generación de visualizaciones avanzadas, permitiendo un análisis más claro, reproducible y profesional.
+El propósito principal fue **organizar y estandarizar el flujo de trabajo analítico**, desde la limpieza inicial hasta la creación de gráficas más avanzadas, con el fin de lograr un análisis claro.
 
 ---
 
