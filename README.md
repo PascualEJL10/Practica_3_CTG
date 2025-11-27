@@ -122,13 +122,14 @@ y sigue el flujo:
 	- Eliminación de valores nulos
 	- Imputación
 	- Detección y eliminación de outliers
-	4. Clasificación de columnas
-	5. Análisis de Dtos
-	6. Visualizaciones
-	7. Recomendaciones analíticas
-   8.  Bonus (para sobresaliente)
+  4. Clasificación de columnas
+  5. Análisis de Dtos
+  6. Visualizaciones
+  7. Recomendaciones analíticas
+  8.  Bonus para sobresaliente
 
 ```
+
 Principales Visualizaciones y Hallazgos
 
 1. Efecto del IQR (Antes vs Después)
