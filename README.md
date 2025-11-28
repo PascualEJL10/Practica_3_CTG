@@ -154,6 +154,7 @@ y sigue el flujo:
 
 Incluye todas las librerías necesarias para reproducir el análisis:
 
+```text
 pandas
 numpy
 matplotlib
@@ -162,6 +163,7 @@ scikit-learn
 scipy
 streamlit
 plotly
+```
 
 **Licencia**
 
